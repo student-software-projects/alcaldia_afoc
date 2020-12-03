@@ -44,7 +44,7 @@ class LocalidadController extends Controller
 
     public function destroy($id){
         $localidad=Localidad::find($id)->delete();
-        return redirect()->route('product_type.index')->with([
+        return redirect()->route('localidad.index')->with([
             'message'=>'Se ha eliminado correctamente la localidad',
             'type'=>'danger'
         ]);

@@ -1,15 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>localidad</title>
-</head>
-<body>
-
+@extends('layouts.admin.app')
+@section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-4">
@@ -17,7 +7,7 @@
                 @csrf
                 @method('PUT')
                 <div class="form-group mt-5">
-                    <label for="name">Editar nombre de el tipo de producto</label>
+                    <label for="name">Editar nombre de la localidad</label>
                     <input name="localidad" id="name" type="text" class="form-control" value="{{ $localidad->localidad}}">
                 </div>
                 <hr>
@@ -27,6 +17,4 @@
         </div>
     </div>
 </div>
-
-</body>
-</html>
+@endsection

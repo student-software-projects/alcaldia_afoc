@@ -12,12 +12,12 @@
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
                         <i class="bx bx-home-circle"></i><span class="badge badge-pill badge-info float-right">03</span>
-                        <span key="t-dashboards">Dashboards</span>
+                        <span key="t-dashboards">TORNEO</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="index.html" key="t-default">Default</a></li>
-                        <li><a href="dashboard-saas.html" key="t-saas">Saas</a></li>
-                        <li><a href="dashboard-crypto.html" key="t-crypto">Crypto</a></li>
+                        <li><a href="{{ route('localidad.index') }}">Index Localidad</a></li>
+                        <li><a href="{{ route('equipo.index') }}">Index Equipo</a></li>
+                        <li><a href="{{ route('jugador.index') }}">Index Jugador</a></li>
                     </ul>
                 </li>
 

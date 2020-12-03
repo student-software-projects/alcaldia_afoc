@@ -27,13 +27,11 @@
     <div class="main-content">
 
         <div class="page-content">
-            <a href="/">Welcome</a> |
-            <a href="{{ route('dashboard.perfil') }}">Perfil</a> |
-            <a href="{{ route('dashboard.index') }}">Index</a> |
-            <br><br>
+            <!-- puedo poner lo que quiera, antes tenia los A HREF
+            <a href="{{ route('localidad.index') }}" class="btn btn-danger">Localidad</a>
                 <h4><a href="{{ route('localidad.index') }}">Index Localidad</a></h4>
                 <h4><a href="{{ route('equipo.index') }}">Index Equipo</a></h4>
-                <h4><a href="{{ route('jugador.index') }}">Index Jugador</a></h4>
+                <h4><a href="{{ route('jugador.index') }}">Index Jugador</a></h4>-->
             @yield('content')
         </div>
 

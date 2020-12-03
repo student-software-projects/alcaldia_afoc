@@ -5,7 +5,7 @@ use App\Http\Controllers\Localidad\LocalidadController;
 use App\Http\Controllers\Equipo\EquipoController;
 use App\Http\Controllers\Jugador\JugadorController;
 use App\Http\Controllers\DashboardController;
-
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,15 +15,15 @@ use App\Http\Controllers\DashboardController;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+
 
 Route::get('/', function () {
     return view('welcome');
-});
-Route::get('escritorio',[DashboardController::class,'index'])->name('dashboard.index');
-Route::get('perfil',[DashboardController::class,'perfil'])->name('dashboard.perfil');
+});*/
 
-Route::get('login',[LoginController::class,'form_login'])->name('login.form_login');
+Route::get('escritorio',[DashboardController::class,'index'])->name('dashboard.index');
+
+Route::get('/',[LoginController::class,'form_login'])->name('login.form_login');
 Route::post('auth',[LoginController::class,'auth'])->name('login.auth');
 
 

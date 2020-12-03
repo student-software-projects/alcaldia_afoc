@@ -136,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/laravel_trapitos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -165,6 +165,10 @@
       <workItem from="1606519063278" duration="4662000" />
       <workItem from="1606524451192" duration="7317000" />
       <workItem from="1606569856581" duration="25811000" />
+      <workItem from="1606670063594" duration="1608000" />
+      <workItem from="1606878734911" duration="47000" />
+      <workItem from="1606947468632" duration="2338000" />
+      <workItem from="1606955053379" duration="7052000" />
     </task>
     <servers />
   </component>
@@ -180,10 +184,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="784" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606523423699" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606524198215">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606878786725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606524198215" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606878786725" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1606617984003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
